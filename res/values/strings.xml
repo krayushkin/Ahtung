@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="app_name">Ahtung</string>
+    <string name="hello_world">Hello world!</string>
+    <string name="action_settings">Настройки</string>
+    <string name="create_group">Создать группу</string>
+    <string name="join_to_group">Присоединится к группе</string>
+    <string name="title_activity_create_group">Создание группы</string>
+    <string name="group_signals">Сигналы группы:</string>
+    <string name="alert">Тревога!</string>
+    <string name="warning">Внимание!</string>
+    <string name="cancel">Отбой!</string>
+    <string name="create">Создать</string>
+    <string name="title_activity_show_group_id">Создание группы - шаг 2</string>
+    <string name="please_share_message">Поделитесь номером с теми, кого хотите добавить в группу</string>
+    <string name="create_group_greetings">Теперь всё готово! Теперь вы можете начать или сразу перейти к настройкам</string>
+    <string name="begin">Начать</string>
+    <string name="go_to_settings">Перейти к настройкам</string>
+    <string name="title_activity_join_group">Присоединиться к группе</string>
+    <string name="join_intructions">Для присоединения сначала кто-то должен создать группу</string>
+    <string name="join">Присоединится</string>
+    <string name="enter_the_code">Вставить сюда код</string>
+    <string name="title_activity_main_active">Основное окно</string>
+    <string name="signals">Сигналы:</string>
+    <string name="group_users">Состав группы:</string>
+    <string name="title_activity_settings">Настройки</string>
+    <string name="mute">Отключить</string>
+    <string name="leave_group">Покинуть группу</string>
+    <string name="share">Поделиться</string>
+    <string name="save_yes">Сохранить</string>
+    <string name="save_no">Отменить</string>
+    <string name="signal_type">Тип сигнала</string>
+    <string name="melody">Мелодия сигнала</string>
+    <string name="recieve_signals">Принимать сигналы</string>
+    <string name="settings">Настройки</string>
+    <string name="melody_level">Громкость</string>
+    <string name="title_activity_incoming_signal">IncomingSignalActivity</string>
+
+</resources>

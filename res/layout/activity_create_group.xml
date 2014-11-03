@@ -1,0 +1,49 @@
+
+    <LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+        xmlns:tools="http://schemas.android.com/tools"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="10dp"
+        android:orientation="vertical"
+        tools:context="ru.krayushka.ahtung.CreateGroupActivity" >
+	
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_marginBottom="20dp"
+        android:layout_weight="1"
+        android:text="@string/group_signals"
+        android:textAppearance="?android:attr/textAppearanceSearchResultTitle" />
+
+    <Switch
+        android:id="@+id/switch1"
+        android:layout_width="fill_parent"
+        android:layout_height="0dp"
+        android:layout_weight="1"
+        android:text="@string/alert" />
+
+    <Switch
+        android:id="@+id/switch2"
+        android:layout_width="fill_parent"
+        android:layout_height="0dp"
+        android:layout_marginTop="10dp"
+        android:layout_weight="1"
+        android:text="@string/warning" />
+
+    <Switch
+        android:id="@+id/switch3"
+        android:layout_width="fill_parent"
+        android:layout_height="0dp"
+        android:layout_marginTop="10dp"
+        android:layout_weight="1"
+        android:text="@string/cancel" />
+    
+    <Button
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_marginTop="20dp"
+        android:layout_weight="1"
+        android:onClick="createClicked"
+        android:text="@string/create" />
+   
+       </LinearLayout>

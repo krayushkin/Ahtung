@@ -1,0 +1,111 @@
+
+    <LinearLayout xmlns:tools="http://schemas.android.com/tools"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="10dp"
+        android:orientation="vertical"
+        tools:context="ru.krayushka.ahtung.MainActiveActivity" xmlns:android="http://schemas.android.com/apk/res/android">
+	
+    <TextView
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="10dp"
+        android:text="@string/signals"
+        android:textAppearance="?android:attr/listSeparatorTextViewStyle" />
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content" >
+
+        <Button
+            android:id="@+id/button1"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:onClick="warningClicked"
+            android:text="@string/warning" />
+
+        <Button
+            android:id="@+id/button2"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:onClick="alertClicked"
+            android:text="@string/alert" />
+
+        <Button
+            android:id="@+id/button3"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:onClick="cancelClicked"
+            android:text="@string/cancel" />
+
+    </LinearLayout>
+
+      <LinearLayout
+          android:layout_width="match_parent"
+          android:layout_height="wrap_content"
+          android:layout_marginTop="10dp"
+          android:gravity="center_vertical" >
+
+          <TextView
+              android:layout_width="0dp"
+              android:layout_height="wrap_content"
+              android:layout_weight="1"
+              android:text="@string/group_users"
+              android:textAppearance="?android:attr/listSeparatorTextViewStyle" />
+
+          <ImageButton
+              android:id="@+id/imageButton1"
+              android:layout_width="wrap_content"
+              android:layout_height="wrap_content"
+              android:src="@android:drawable/stat_notify_sync" />
+
+    </LinearLayout>
+
+      <ScrollView
+          android:id="@+id/scrollView1"
+          android:layout_width="match_parent"
+          android:layout_height="wrap_content" >
+
+          <GridLayout
+              android:layout_width="wrap_content"
+              android:layout_height="match_parent"
+              android:columnCount="2"
+              android:rowCount="3" >
+
+              <ImageView
+                  android:id="@+id/imageView1"
+                  android:layout_gravity="left"
+                  android:src="@drawable/ava1" />
+
+              <TextView
+                  android:id="@+id/textView1"
+                  android:layout_gravity="center_vertical"
+                  android:text="Краюшкина Е.В." />
+
+              <ImageView
+                  android:id="@+id/imageView2"
+                  android:layout_gravity="left"
+                  android:src="@drawable/ava2" />
+
+              <TextView
+                  android:id="@+id/textView2"
+                  android:layout_gravity="center_vertical"
+                  android:text="Краюшкин Д.С." />
+
+              <ImageView
+                  android:id="@+id/imageView3"
+                  android:layout_gravity="left"
+                  android:src="@drawable/ava3" />
+
+              <TextView
+                  android:id="@+id/textView3"
+                  android:layout_gravity="center_vertical"
+                  android:text="Шиндиков В.А." />
+          </GridLayout>
+
+      </ScrollView>
+    
+</LinearLayout>

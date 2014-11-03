@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+        <string-array
+        name="signal_type">
+        <item
+            >Беззвучно</item>
+        <item
+            >Мелодия</item>
+        <item
+            >Вибрация</item>
+        <item
+            >Вибрация и вибрация</item>
+    </string-array>
+    
+</resources>

@@ -1,0 +1,72 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="ru.krayushka.ahtung"
+    android:versionCode="1"
+    android:versionName="1.0" >
+
+    <uses-sdk
+        android:minSdkVersion="16"
+        android:targetSdkVersion="21" />
+
+    <application
+        android:allowBackup="true"
+        android:icon="@drawable/ic_launcher"
+        android:label="@string/app_name"
+        android:theme="@style/AppTheme" >
+        <activity
+            android:name=".MainIdleActivity"
+            android:label="@string/app_name" >
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name=".CreateGroupActivity"
+            android:label="@string/title_activity_create_group"
+            android:parentActivityName=".MainIdleActivity" >
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value="ru.krayushka.ahtung.MainIdleActivity" />
+        </activity>
+        <activity
+            android:name=".ShowGroupIdActivity"
+            android:label="@string/title_activity_show_group_id"
+            android:parentActivityName=".CreateGroupActivity" >
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value="ru.krayushka.ahtung.CreateGroupActivity" />
+        </activity>
+        <activity
+            android:name=".JoinGroupActivity"
+            android:label="@string/title_activity_join_group"
+            android:parentActivityName=".MainIdleActivity" >
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value="ru.krayushka.ahtung.MainIdleActivity" />
+        </activity>
+        <activity
+            android:name=".MainActiveActivity"
+            android:label="@string/title_activity_main_active" >
+        </activity>
+        <activity
+            android:name=".SettingsActivity"
+            android:label="@string/title_activity_settings"
+            android:parentActivityName=".MainActiveActivity" >
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value="ru.krayushka.ahtung.MainActiveActivity" />
+        </activity>
+        <activity
+            android:name=".IncomingSignalActivity"
+            android:label="@string/title_activity_incoming_signal"
+            android:theme="@android:style/Theme.Holo.Light.NoActionBar"
+            android:parentActivityName=".MainActiveActivity" >
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value="ru.krayushka.ahtung.MainActiveActivity" />
+        </activity>
+    </application>
+
+</manifest>
