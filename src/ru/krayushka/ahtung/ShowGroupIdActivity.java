@@ -38,6 +38,7 @@ public class ShowGroupIdActivity extends Activity {
 	{
 		Intent i = new Intent(this, MainActiveActivity.class);
 		startActivity(i);
+		
 	}
 	
 	
@@ -46,5 +47,6 @@ public class ShowGroupIdActivity extends Activity {
 	{
 		Intent i = new Intent(this, SettingsActivity.class);
 		startActivity(i);
+		
 	}
 }

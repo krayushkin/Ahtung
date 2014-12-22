@@ -1,6 +1,6 @@
 package ru.krayushka.ahtung;
 
-import android.support.v7.app.ActionBarActivity;
+import android.app.Activity;
 import android.content.Intent;
 import android.os.Bundle;
 import android.view.Menu;
@@ -8,7 +8,7 @@ import android.view.MenuItem;
 import android.view.View;
 
 
-public class MainIdleActivity extends ActionBarActivity {
+public class MainIdleActivity extends Activity {
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
@@ -41,6 +41,7 @@ public class MainIdleActivity extends ActionBarActivity {
         // Do something in response to button click
     	Intent i = new Intent(this, CreateGroupActivity.class);
     	startActivity(i);
+
     }
     
     /** Called when the user touches the button */
@@ -48,6 +49,7 @@ public class MainIdleActivity extends ActionBarActivity {
         // Do something in response to button click
     	Intent i = new Intent(this, JoinGroupActivity.class);
     	startActivity(i);
+    	
     }
     
     

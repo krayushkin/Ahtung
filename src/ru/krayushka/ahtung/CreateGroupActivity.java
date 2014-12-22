@@ -1,13 +1,13 @@
 package ru.krayushka.ahtung;
 
-import android.support.v7.app.ActionBarActivity;
+import android.app.Activity;
 import android.content.Intent;
 import android.os.Bundle;
 import android.view.Menu;
 import android.view.MenuItem;
 import android.view.View;
 
-public class CreateGroupActivity extends ActionBarActivity {
+public class CreateGroupActivity extends Activity {
 
 	@Override
 	protected void onCreate(Bundle savedInstanceState) {
@@ -15,6 +15,7 @@ public class CreateGroupActivity extends ActionBarActivity {
 		setContentView(R.layout.activity_create_group);
 	}
 
+	
 	@Override
 	public boolean onCreateOptionsMenu(Menu menu) {
 		// Inflate the menu; this adds items to the action bar if it is present.
@@ -39,5 +40,6 @@ public class CreateGroupActivity extends ActionBarActivity {
 	{
 		Intent i = new Intent(this, ShowGroupIdActivity.class);
 		startActivity(i);
+
 	}
 }

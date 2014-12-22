@@ -30,12 +30,14 @@ public class SettingsActivity extends Activity {
 		if (id == R.id.save) {
 			Intent i = new Intent(this, MainActiveActivity.class);
 			startActivity(i);
+			finish();
 			return true;
 		}
 		
 		if (id == R.id.cancel) {
 			Intent i = new Intent(this, MainActiveActivity.class);
 			startActivity(i);
+			finish();
 			return true;
 		}
 		return super.onOptionsItemSelected(item);

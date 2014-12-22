@@ -38,5 +38,6 @@ public class JoinGroupActivity extends Activity {
 	{
 		Intent i = new Intent(this, MainActiveActivity.class);
 		startActivity(i);
+		
 	}
 }

@@ -51,6 +51,7 @@
         android:layout_alignParentBottom="true"
         android:layout_centerHorizontal="true"
         android:onClick="okClicked"
-        android:text="@android:string/ok" />
+        android:text="@android:string/ok"
+        android:textAppearance="?android:attr/textAppearanceLarge" />
 
 </RelativeLayout>
